@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-31T18:30:49Z" name="BaufestTestSuite" finished-at="2021-10-31T18:31:14Z" duration-ms="25404">
+    <groups>
+    </groups>
+    <test started-at="2021-10-31T18:30:49Z" name="TC_01_CorrectSingUp" finished-at="2021-10-31T18:30:53Z" duration-ms="4126">
+      <class name="loginTest.TC_01_CorrectSingUp">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTest.TC_01_CorrectSingUp@3faf2e7d]" started-at="2021-10-31T12:30:49Z" name="startWebDriver" finished-at="2021-10-31T12:30:50Z" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_01()[pri:0, instance:loginTest.TC_01_CorrectSingUp@3faf2e7d]" started-at="2021-10-31T12:30:50Z" name="TC_01" finished-at="2021-10-31T12:30:52Z" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTest.TC_01_CorrectSingUp@3faf2e7d]" started-at="2021-10-31T12:30:52Z" name="closeDriver" finished-at="2021-10-31T12:30:53Z" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTest.TC_01_CorrectSingUp -->
+    </test> <!-- TC_01_CorrectSingUp -->
+    <test started-at="2021-10-31T18:30:54Z" name="TC_02_CorrectLogin" finished-at="2021-10-31T18:30:57Z" duration-ms="3354">
+      <class name="loginTest.TC_02_CorrectLogin">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTest.TC_02_CorrectLogin@37ebc9d8]" started-at="2021-10-31T12:30:54Z" name="startWebDriver" finished-at="2021-10-31T12:30:55Z" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_02()[pri:0, instance:loginTest.TC_02_CorrectLogin@37ebc9d8]" started-at="2021-10-31T12:30:55Z" name="TC_02" finished-at="2021-10-31T12:30:57Z" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTest.TC_02_CorrectLogin@37ebc9d8]" started-at="2021-10-31T12:30:57Z" name="closeDriver" finished-at="2021-10-31T12:30:57Z" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTest.TC_02_CorrectLogin -->
+    </test> <!-- TC_02_CorrectLogin -->
+    <test started-at="2021-10-31T18:30:57Z" name="TC_03_Logout" finished-at="2021-10-31T18:31:02Z" duration-ms="5243">
+      <class name="loginTest.TC_03_Logout">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:loginTest.TC_03_Logout@7a11c4c7]" started-at="2021-10-31T12:30:57Z" name="startWebDriver" finished-at="2021-10-31T12:30:58Z" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_03()[pri:0, instance:loginTest.TC_03_Logout@7a11c4c7]" started-at="2021-10-31T12:30:58Z" name="TC_03" finished-at="2021-10-31T12:31:02Z" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:loginTest.TC_03_Logout@7a11c4c7]" started-at="2021-10-31T12:31:02Z" name="closeDriver" finished-at="2021-10-31T12:31:02Z" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- loginTest.TC_03_Logout -->
+    </test> <!-- TC_03_Logout -->
+    <test started-at="2021-10-31T18:31:02Z" name="TC_04_Add2Cart" finished-at="2021-10-31T18:31:14Z" duration-ms="11866">
+      <class name="categoriesTest.TC_04_Add2Cart">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:categoriesTest.TC_04_Add2Cart@5707c1cb]" started-at="2021-10-31T12:31:02Z" name="startWebDriver" finished-at="2021-10-31T12:31:04Z" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method signature="TC_03()[pri:0, instance:categoriesTest.TC_04_Add2Cart@5707c1cb]" started-at="2021-10-31T12:31:04Z" name="TC_03" finished-at="2021-10-31T12:31:14Z" duration-ms="9752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:categoriesTest.TC_04_Add2Cart@5707c1cb]" started-at="2021-10-31T12:31:14Z" name="closeDriver" finished-at="2021-10-31T12:31:14Z" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- categoriesTest.TC_04_Add2Cart -->
+    </test> <!-- TC_04_Add2Cart -->
+  </suite> <!-- BaufestTestSuite -->
+</testng-results>

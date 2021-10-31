@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BaufestTestSuite" parallel="tests" thread-count="1">
+<parameter name="" value="" />
+
+  <test name="TC_01_CorrectSingUp">
+    <classes>
+      <class name="loginTest.TC_01_CorrectSingUp"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TC_02_CorrectLogin">
+    <classes>
+      <class name="loginTest.TC_02_CorrectLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TC_03_Logout">
+    <classes>
+      <class name="loginTest.TC_03_Logout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TC_04_Add2Cart">
+    <classes>
+      <class name="categoriesTest.TC_04_Add2Cart"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
